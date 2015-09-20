@@ -8,8 +8,12 @@
   "email": ""
 }],
   "license": "MIT",
-  "main": "chat.js",
   "dependencies": {
-    "express": "^3.3.8"
-  }
+    "express": "^3.3.8",
+    "socket.io": "0.9.16"
+  },
+  "scripts": {
+        "start": "node chat.js"
+   },
+  "main": "chat.js"
 }
