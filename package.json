@@ -8,9 +8,17 @@
   "email": ""
 }],
   "license": "MIT",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
   "dependencies": {
     "express": "^3.3.8",
     "socket.io": "0.9.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andr3a87/AD_CHAT.git"
   },
   "scripts": {
         "start": "node chat.js"
