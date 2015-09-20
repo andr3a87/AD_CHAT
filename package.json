@@ -21,7 +21,7 @@
     "url": "https://github.com/andr3a87/AD_CHAT.git"
   },
   "scripts": {
-        "start": "node chat.js"
+        "start": "supervisor server.js"
    },
-  "main": "chat.js"
+  "main": "server.js"
 }
