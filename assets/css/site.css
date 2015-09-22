@@ -1,0 +1,20 @@
+.chat-body{
+	background-color:#333;
+	font-family:Verdana;
+}
+
+.panel-body{
+	background-color:#333;
+}
+
+.media-body{
+	color:yellow;
+}
+
+.text-muted{
+	color:yellow;
+}
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
