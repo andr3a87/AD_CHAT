@@ -17,7 +17,7 @@ app.get('/',function(req,res){
 var hostRedis = process.env.OPENSHIFT_REDIS_HOST || '127.0.0.1';
 var portRedis = process.env.OPENSHIFT_REDIS_PORT || 6379;
 
-var redis = require('redis');
+//var redis = require('redis');
 //var client = redis.createClient(portRedis, hostRedis);
 
 console.log('Redis running at http://%s:%d',hostRedis,portRedis);
